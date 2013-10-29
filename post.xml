@@ -1,0 +1,11 @@
+<ServiceRequest>
+  <data>
+    <WebApp>
+      <urlBlacklist>
+        <set>
+          <UrlEntry regex="true"><![CDATA[http://rg.blacklist.*.com]]></UrlEntry>
+        </set>
+      </urlBlacklist>
+    </WebApp>
+  </data>
+</ServiceRequest>
