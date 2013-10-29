@@ -54,7 +54,6 @@ Usage
       -x, --no_update       Do not update selected web applications. (Default =
                             False)
 
-
 Requirements
 ============
 
