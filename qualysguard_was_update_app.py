@@ -20,6 +20,7 @@ import random
 import unicodedata
 
 from collections import defaultdict
+from lxml import objectify
 from texttable import Texttable
 
 def list_apps(apps):
