@@ -126,6 +126,7 @@ while True:
             </preferences>
         </ServiceRequest>''' % (c_args.tag, last_record)
     search_apps = qgc.request(query_uri, data)
+    logging.debug(search_apps)
     # Parse list of web apps to associate each web app id with web app name.
     tree = objectify.fromstring(search_apps)
     for webapp in tree.data.WebApp:
