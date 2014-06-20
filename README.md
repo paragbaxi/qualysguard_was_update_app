@@ -40,19 +40,19 @@ Examples
 ========
 List web applications with tag "Product Management".
 
-    python qualysguard_scan_queue.py --tag "Product Management" --no_update
+    python qualysguard_was_update_app.py --tag "Product Management" --no_update
 
 Update all web applications.
 
-    python qualysguard_scan_queue.py --all_apps
+    python qualysguard_was_update_app.py --all_apps
 
 Update web applications with tag "QA" from XML file 'mypost.xml'
 
-    python qualysguard_scan_queue.py --tag "QA" --update "mypost.xml"
+    python qualysguard_was_update_app.py --tag "QA" --update "mypost.xml"
 
 Troubleshoot why script will not work (put in debug mode)
 
-    python qualysguard_scan_queue.py --all_apps --debug
+    python qualysguard_was_update_app.py --all_apps --debug
 
 Sample output
 =============
